@@ -29,3 +29,26 @@ La session se termine par le retrait du casque et un retour au calme. Un court t
 L'utilisateur est ensuite invité à remplir un questionnaire d'évaluation standardisé pour quantifier son sentiment de présence et la crédibilité de l'illusion tactile. 
 
 Enfin, un entretien libre permet de recueillir des données qualitatives plus riches, notamment sur les éléments qui ont pu briser l'immersion ou sur d'éventuels inconforts physiques (nausées, poids du casque), clôturant ainsi la collecte de données pour cette session de Beta.
+
+
+# Données à collecter
+
+## Précision d'alignement
+Type : Quantitatif
+
+Méthode de collecte : Mesure de l'écart (en cm) entre la table réel et le modèle 3D.
+
+## Présence (Illusion)
+Type : Qualitatif
+
+Méthode de collecte : Échelle de Likert (1 à 5) sur la sensation d'être "dans" le vaisseau.
+
+## Fatigue / Inconfort
+Type : Qualitatif
+
+Méthode de collecte : Échelle de Likert (1 à 5) sur la fatigue et/ou l'inconfort généré par l'expérience
+
+## Engagement
+Type : Observation
+
+Méthode de collecte : L'expérimentateur observe les gestes et l'amplitude des gestes de l'utilisateur tout au long de l'expérience.
