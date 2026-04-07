@@ -7,7 +7,7 @@ L'utilisateur est informé des consignes de sécurité élémentaires liées à 
 
 Durant cette étape, l'expérimentateur explique que le sujet va entrer dans un environnement de cockpit spatial qui doit se superposer à son environnement physique immédiat, tout en précisant qu'il doit exprimer ses ressentis à voix haute selon la méthode du "Think Aloud".
 
-## Phase 2 : Initialisation et Calibration du Système
+## Phase 2 : Initialisation et Calibration du Système (A MODIFIER)
 Une fois le sujet équipé du Meta Quest 3, la phase de calibration commence. L’expérimentateur guide l’utilisateur pour qu’il identifie les points de repère réels (comme le coin du bureau) nécessaires à l’activation des Spatial Anchors. 
 
 Cette étape est cruciale car elle permet de verrouiller l'univers virtuel sur les coordonnées physiques de la pièce. 
@@ -16,10 +16,13 @@ L'utilisateur observe les textures du bureau et le hublot virtuel apparaitre par
 
 On laisse alors quelques instants au sujet pour s'acclimater visuellement à cette nouvelle configuration spatiale.
 
+
 ## Phase 3 : Exploration et Tests d'Interaction Physique
 Le cœur du protocole consiste à tester la cohérence entre la vision et le toucher. L'utilisateur est invité à effectuer une série de tâches motrices précises, comme poser sa main à plat sur la console de commande ou suivre du doigt les arêtes du modèle 3D superposé au bureau. L'objectif est d'évaluer la qualité de l'alignement.
 
-Ensuite, le sujet doit interagir avec le sabre laser (en fermant la main sur un objet réel, dans notre cas, une gourde) afin de détruire des cibles qui se déplacent vers sa position. 
+La suite de l'expérimentation repose sur une étude comparative du maniement du sabre laser. Pour la première série de tests, l'utilisateur doit détruire des cibles mobiles en utilisant uniquement sa main.
+
+Dans la seconde série, le sujet saisit un objet physique dont la forme est proche d'un manche (une gourde). L'utilisateur doit alors neutraliser les mêmes cibles, permettant ainsi de mesurer si la sensation de fermer la main sur un objet solide et pesant renforce la précision des mouvements et le sentiment de présence.
 
 Durant cette phase, l'expérimentateur observe attentivement les hésitations de l'utilisateur ou les décalages perceptibles entre le geste réel et l'affichage virtuel.
 
@@ -42,6 +45,16 @@ Méthode de collecte : Mesure de l'écart (en cm) entre la table réel et le mod
 Type : Qualitatif
 
 Méthode de collecte : Échelle de Likert (1 à 5) sur la sensation d'être "dans" le vaisseau.
+
+## Crédibilité du sabre (Main)
+Type : Qualitatif
+
+Méthode de collecte : Échelle de Likert (1 à 5) sur la sensation d'avoir le sabre dans les mains.
+
+## Crédibilité du sabre (Gourde)
+Type : Qualitatif
+
+Méthode de collecte : Échelle de Likert (1 à 5) sur la sensation d'avoir le sabre dans les mains.
 
 ## Fatigue / Inconfort
 Type : Qualitatif
