@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 604843180}
   - component: {fileID: 604843179}
   - component: {fileID: 604843178}
+  - component: {fileID: 604843182}
   m_Layer: 0
   m_Name: MRUK
   m_TagString: Untagged
@@ -381,6 +382,30 @@ MonoBehaviour:
   onDetectionResponseReceived:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &604843182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604843175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d607ba0c0320e446ba9d62671d9d7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: meta.xr.mrutilitykit::Meta.XR.MRUtilityKit.AnchorPrefabSpawner
+  SpawnOnStart: 1
+  SeedValue: 0
+  PrefabsToSpawn:
+  - Labels: 8
+    Prefabs:
+    - {fileID: 919132149155446097, guid: e878671ff1a693649ac439d2d446e30b, type: 3}
+    PrefabSelection: 0
+    MatchAspectRatio: 0
+    CalculateFacingDirection: 0
+    Scaling: 0
+    Alignment: 0
+    IgnorePrefabSize: 0
 --- !u!1 &706814476
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: meta.xr.mrutilitykit::Meta.XR.MRUtilityKit.EffectMesh
   SpawnOnStart: 1
-  MeshMaterial: {fileID: 2100000, guid: bbb56ac3cf3c61a46ab3887c0fdbda8f, type: 2}
+  MeshMaterial: {fileID: 3409774012477593099, guid: 5c964ec4e1b1e47409c3d495e962f38d, type: 3}
   BarycentricCoordinatesEnabled: 0
   Colliders: 1
   CutHoles: 0
@@ -658,7 +683,7 @@ MonoBehaviour:
   - WallU: 0
     WallV: 0
     AnchorUV: 0
-  Labels: -1
+  Labels: 7
 --- !u!4 &1000946761
 Transform:
   m_ObjectHideFlags: 0
