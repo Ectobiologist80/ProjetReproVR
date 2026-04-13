@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f21733f13c50e746b4a5bd45ff6c80a
+guid: 5569c3891887954448069e4589fb4a16
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: TableHall
-    second: {fileID: 2100000, guid: 8d5279392819fcb45887842ec1084b1d, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: adb05d51bddb37b4bb00f3f7c14609d7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -38,7 +38,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 120
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -96,7 +96,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1.1999999
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
