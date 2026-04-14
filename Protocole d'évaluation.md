@@ -17,9 +17,9 @@ On laisse alors quelques instants au sujet pour s'acclimater visuellement à cet
 ## Phase 3 : Exploration et Tests d'Interaction Physique
 Le cœur du protocole consiste à tester la cohérence entre la vision et le toucher. L'utilisateur est invité à effectuer une série de tâches motrices précises, comme poser sa main à plat sur la console de commande ou suivre du doigt les arêtes du modèle 3D superposé au bureau. L'objectif est d'évaluer la qualité de l'alignement.
 
-La suite de l'expérimentation repose sur une étude comparative du maniement du sabre laser. Pour la première série de tests, l'utilisateur doit détruire des cibles mobiles en utilisant uniquement sa main.
+La suite de l'expérimentation repose sur une étude comparative du maniement du sabre laser. Pour la première série de tests, l'utilisateur doit détruire des cibles mobiles en utilisant uniquement sa main. L'expérience doit être réalisée 3 fois.
 
-Dans la seconde série, le sujet saisit un objet physique dont la forme est proche d'un manche (une gourde). L'utilisateur doit alors neutraliser les mêmes cibles, permettant ainsi de mesurer si la sensation de fermer la main sur un objet solide et pesant renforce la précision des mouvements et le sentiment de présence.
+Dans la seconde série, le sujet saisit un objet physique dont la forme est proche d'un manche (une gourde). L'utilisateur doit alors neutraliser les mêmes cibles, permettant ainsi de mesurer si la sensation de fermer la main sur un objet solide et pesant renforce la précision des mouvements et le sentiment de présence. L'expérience doit être réalisée 3 fois
 
 Durant cette phase, l'expérimentateur observe attentivement les hésitations de l'utilisateur ou les décalages perceptibles entre le geste réel et l'affichage virtuel.
 
