@@ -9,6 +9,7 @@ public class StartButtonTrigger : MonoBehaviour
     [Header("Visual Feedback")]
     [SerializeField] private Color idleColor = Color.green;
     [SerializeField] private Color pressedColor = Color.yellow;
+    [SerializeField] private Color disabledColor = Color.gray;
     [SerializeField] private float pressedColorDuration = 0.2f;
 
     [Header("Valid Tags")]
@@ -16,7 +17,7 @@ public class StartButtonTrigger : MonoBehaviour
 
     private Material _material;
     private float _pressedTimer = 0f;
-    private bool _isCoolingDown = false;
+    private bool _isFlashing = false;
 
     private void Awake()
     {
@@ -28,25 +29,26 @@ public class StartButtonTrigger : MonoBehaviour
         if (buttonRenderer != null)
         {
             _material = buttonRenderer.material;
-            _material.color = idleColor;
         }
+
+        RefreshVisualState();
     }
 
     private void Update()
     {
-        if (!_isCoolingDown)
-            return;
-
-        _pressedTimer -= Time.deltaTime;
-
-        if (_pressedTimer <= 0f)
+        if (_isFlashing)
         {
-            _isCoolingDown = false;
+            _pressedTimer -= Time.deltaTime;
 
-            if (_material != null)
+            if (_pressedTimer <= 0f)
             {
-                _material.color = idleColor;
+                _isFlashing = false;
+                RefreshVisualState();
             }
+        }
+        else
+        {
+            RefreshVisualState();
         }
     }
 
@@ -58,8 +60,12 @@ public class StartButtonTrigger : MonoBehaviour
         if (gameSessionUI == null)
             return;
 
-        gameSessionUI.RequestStartGame();
-        FlashPressedColor();
+        bool accepted = gameSessionUI.RequestStartGame();
+
+        if (accepted)
+        {
+            FlashPressedColor();
+        }
     }
 
     private bool HasValidTag(Collider other)
@@ -75,12 +81,22 @@ public class StartButtonTrigger : MonoBehaviour
 
     private void FlashPressedColor()
     {
-        _isCoolingDown = true;
+        _isFlashing = true;
         _pressedTimer = pressedColorDuration;
 
         if (_material != null)
         {
             _material.color = pressedColor;
         }
+    }
+
+    private void RefreshVisualState()
+    {
+        if (_material == null || gameSessionUI == null || _isFlashing)
+            return;
+
+        _material.color = gameSessionUI.IsStartInteractionLocked
+            ? disabledColor
+            : idleColor;
     }
 }

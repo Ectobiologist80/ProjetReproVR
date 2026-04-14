@@ -52,7 +52,7 @@ public class TrialResultLogger : MonoBehaviour
 
     private void WriteHeader()
     {
-        string header = "timestamp,trial_index,completion_time_s,valid_hits\n";
+        string header = "timestamp;trial_index;completion_time_s;valid_hits\n";
         File.WriteAllText(_filePath, header);
     }
 
@@ -64,7 +64,7 @@ public class TrialResultLogger : MonoBehaviour
         }
 
         string timestamp = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss");
-        string line = $"{timestamp},{trialIndex},{completionTimeSeconds:F2},{validHits}\n";
+        string line = $"{timestamp};{trialIndex};{completionTimeSeconds:F2};{validHits}\n";
 
         File.AppendAllText(_filePath, line);
 
