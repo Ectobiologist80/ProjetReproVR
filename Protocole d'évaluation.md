@@ -7,15 +7,12 @@ L'utilisateur est informé des consignes de sécurité élémentaires liées à 
 
 Durant cette étape, l'expérimentateur explique que le sujet va entrer dans un environnement de cockpit spatial qui doit se superposer à son environnement physique immédiat, tout en précisant qu'il doit exprimer ses ressentis à voix haute selon la méthode du "Think Aloud".
 
-## Phase 2 : Initialisation et Calibration du Système (A MODIFIER)
-Une fois le sujet équipé du Meta Quest 3, la phase de calibration commence. L’expérimentateur guide l’utilisateur pour qu’il identifie les points de repère réels (comme le coin du bureau) nécessaires à l’activation des Spatial Anchors. 
+## Phase 2 : Initialisation et Calibration du Système
+Une fois l'utilisateur équipé du Meta Quest 3, la session débute par une phase de recalage spatial. Le système s'appuie sur une analyse de zone (Scene Mesh) effectuée lors du développement, dont les données géométriques (murs, sol, bureau) sont déjà intégrées à l'application. 
 
-Cette étape est cruciale car elle permet de verrouiller l'univers virtuel sur les coordonnées physiques de la pièce. 
+Cette étape est cruciale car elle permet de verrouiller l'univers virtuel pré-configuré sur les coordonnées physiques réelles de la pièce de test. L'utilisateur observe les textures du vaisseau se superposer instantanément au monde réel, suivant le maillage bleu précédemment capturé. 
 
-L'utilisateur observe les textures du bureau et le hublot virtuel apparaitre par-dessus le monde réel. 
-
-On laisse alors quelques instants au sujet pour s'acclimater visuellement à cette nouvelle configuration spatiale.
-
+On laisse alors quelques instants au sujet pour s'acclimater visuellement à cette nouvelle configuration spatiale, lui permettant de vérifier que les objets virtuels correspondent bien à la structure physique qu'il perçoit.
 
 ## Phase 3 : Exploration et Tests d'Interaction Physique
 Le cœur du protocole consiste à tester la cohérence entre la vision et le toucher. L'utilisateur est invité à effectuer une série de tâches motrices précises, comme poser sa main à plat sur la console de commande ou suivre du doigt les arêtes du modèle 3D superposé au bureau. L'objectif est d'évaluer la qualité de l'alignement.
