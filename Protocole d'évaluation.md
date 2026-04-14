@@ -19,7 +19,7 @@ Le cœur du protocole consiste à tester la cohérence entre la vision et le tou
 
 La suite de l'expérimentation repose sur une étude comparative du maniement du sabre laser. Pour la première série de tests, l'utilisateur doit détruire des cibles mobiles en utilisant uniquement sa main. L'expérience doit être réalisée 3 fois.
 
-Dans la seconde série, le sujet saisit un objet physique dont la forme est proche d'un manche (une gourde). L'utilisateur doit alors neutraliser les mêmes cibles, permettant ainsi de mesurer si la sensation de fermer la main sur un objet solide et pesant renforce la précision des mouvements et le sentiment de présence. L'expérience doit être réalisée 3 fois
+Dans la seconde série, le sujet saisit un objet physique dont la forme est proche d'un manche (une gourde). L'utilisateur doit alors neutraliser les mêmes cibles, permettant ainsi de mesurer si la sensation de fermer la main sur un objet solide et pesant renforce la précision des mouvements et le sentiment de présence. L'expérience doit être réalisée 3 fois.
 
 Durant cette phase, l'expérimentateur observe attentivement les hésitations de l'utilisateur ou les décalages perceptibles entre le geste réel et l'affichage virtuel.
 
