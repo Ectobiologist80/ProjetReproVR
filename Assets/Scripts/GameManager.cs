@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public bool IsTrialFinished { get; private set; }
 
     public float TrialTimeElapsed { get; private set; }
+    public int TrialIndex { get; private set; }
 
     private void Awake()
     {
@@ -53,6 +54,8 @@ public class GameManager : MonoBehaviour
 
     public void StartTrial()
     {
+        TrialIndex++;
+
         ValidHitCount = 0;
         TrialTimeElapsed = 0f;
 
@@ -60,7 +63,7 @@ public class GameManager : MonoBehaviour
         IsTrialRunning = true;
         IsTrialFinished = false;
 
-        Debug.Log("Trial started");
+        Debug.Log($"Trial {TrialIndex} started");
     }
 
     public void RegisterValidHit()
@@ -87,6 +90,19 @@ public class GameManager : MonoBehaviour
         IsCountdownRunning = false;
         IsTrialFinished = true;
 
-        Debug.Log($"Trial finished in {TrialTimeElapsed:F2} seconds");
+        Debug.Log($"Trial {TrialIndex} finished in {TrialTimeElapsed:F2} seconds");
+
+        if (TrialResultLogger.Instance != null)
+        {
+            TrialResultLogger.Instance.AppendTrialResult(
+                TrialIndex,
+                TrialTimeElapsed,
+                ValidHitCount
+            );
+        }
+        else
+        {
+            Debug.LogWarning("TrialResultLogger not found. Result not saved.");
+        }
     }
 }
